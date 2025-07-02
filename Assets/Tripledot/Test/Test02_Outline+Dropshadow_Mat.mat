@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Outline+Dropshadow_Mat
+  m_Name: Test02_Outline+Dropshadow_Mat
   m_Shader: {fileID: 4800000, guid: b50356231d45b4e41ace4d950afb5988, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -69,11 +69,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample3:
-        m_Texture: {fileID: 2800000, guid: 8ff8220231a564640a48edeb1aa88b6a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample4:
-        m_Texture: {fileID: 2800000, guid: 8ff8220231a564640a48edeb1aa88b6a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -109,7 +109,7 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DropShadowIntensity: 0.25
-    - _DropShadowStep: 0.483
+    - _DropShadowStep: 0.5
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _Edge: 0
@@ -120,7 +120,7 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineStep: 0.728
+    - _OutlineStep: 0.2
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -128,7 +128,7 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpriteAlphaStep: 0.168
+    - _SpriteAlphaStep: 0.3
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Stencil: 0
@@ -149,17 +149,19 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 0.0840408, b: 0, a: 1}
     - _DropShadowColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DropShadowColour: {r: 1, g: 0, b: 0.8886132, a: 0.2117647}
+    - _DropShadowColour: {r: 0, g: 0, b: 0, a: 1}
     - _DropShadowOffset: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ImageRectSize: {r: 1, g: 1, b: 0, a: 0}
     - _OutlineColour: {r: 0, g: 0, b: 0, a: 0}
-    - _RectSize: {r: 1, g: 1, b: 0, a: 0}
-    - _ShadOffset: {r: 0, g: 0.4, b: 0, a: 0}
+    - _Padding: {r: 0, g: 0.1, b: 0, a: 0}
+    - _RectSize: {r: 788, g: 798, b: 0, a: 0}
+    - _ShadOffset: {r: 0, g: 0.27, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TestTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 1.15, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &122118799935311237

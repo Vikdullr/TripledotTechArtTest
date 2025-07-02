@@ -1537,6 +1537,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1911826197068562268, guid: be366e1e74934864a8ab108e29518c47, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3511353104061089276, guid: be366e1e74934864a8ab108e29518c47, type: 3}
       propertyPath: m_IgnoreLayout
       value: 1
@@ -1757,6 +1761,10 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 5956393373150287844, guid: be366e1e74934864a8ab108e29518c47, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -500
+      objectReference: {fileID: 0}
     - target: {fileID: 6078323055889029320, guid: be366e1e74934864a8ab108e29518c47, type: 3}
       propertyPath: m_fontSize
       value: 100
@@ -1849,6 +1857,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7434168453521571537, guid: be366e1e74934864a8ab108e29518c47, type: 3}
+      propertyPath: m_Name
+      value: Outline+Shadow_TEST01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7434168453521571537, guid: be366e1e74934864a8ab108e29518c47, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8026770190523231291, guid: be366e1e74934864a8ab108e29518c47, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1871,7 +1887,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8576818948325184123, guid: be366e1e74934864a8ab108e29518c47, type: 3}
       propertyPath: m_fontSize
-      value: 269.3
+      value: 275
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904687747053421294, guid: be366e1e74934864a8ab108e29518c47, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9100694953269881876, guid: be366e1e74934864a8ab108e29518c47, type: 3}
       propertyPath: m_fontSize
