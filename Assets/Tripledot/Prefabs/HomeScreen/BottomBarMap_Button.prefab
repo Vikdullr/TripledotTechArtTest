@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7907180166785232869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3410333500212594678, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_StringReference.m_TableEntryReference.m_KeyId
+      value: 2734248943616
+      objectReference: {fileID: 0}
+    - target: {fileID: 3410333500212594678, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_StringReference.m_TableReference.m_TableCollectionName
+      value: GUID:061fd7bae05de014f9b44bbbd25fb97f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6416402439171913023, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_Name
+      value: BottomBarMap_Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 6898392713623245031, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 90c3f63bd918f3b4c869123863ea5e0e, type: 3}
+    - target: {fileID: 7012349834220895474, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_text
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 7012349834220895474, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8440914411964007694, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_text
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 8458791611823313399, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_Name
+      value: FooterMap_Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766733723455378995, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766733723455378995, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766733723455378995, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766733723455378995, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766733723455378995, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8901152494719304266, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}
+      propertyPath: m_Name
+      value: FooterMap_Icon
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57c1e50d89fd46648b84a95095dcc481, type: 3}

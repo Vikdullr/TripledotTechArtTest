@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2553267771868468949
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 761337129040100569, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: StarsAmount_Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 1251670605280974622, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1536809131566994561, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: StarsIcon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611624938078926424, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 247
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611624938078926424, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 247
+      objectReference: {fileID: 0}
+    - target: {fileID: 1611624938078926424, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1981076279992577888, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fe2c84d8eac03c4458e60afebfe6867a, type: 3}
+    - target: {fileID: 2385761677921099752, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: AddStars_Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 2385761677921099752, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3669421910628539047, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4975354416581780000, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: StarsPill
+      objectReference: {fileID: 0}
+    - target: {fileID: 5515796232870897974, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: StarsAmount_Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 7999063218555347646, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_Name
+      value: StarsCurrency Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755657948257273023, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755657948257273023, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755657948257273023, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755657948257273023, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8755657948257273023, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ba049a9df3a43c458f24679f17685b4, type: 3}

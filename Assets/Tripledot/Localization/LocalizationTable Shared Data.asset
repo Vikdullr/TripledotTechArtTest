@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationTable Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LocalizationTable
+  m_TableCollectionNameGuidString: 061fd7bae05de014f9b44bbbd25fb97f
+  m_Entries:
+  - m_Id: 94463057920
+    m_Key: HomeScreen.Home
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2662983524352
+    m_Key: HomeScreen.Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2734248943616
+    m_Key: HomeScreen.Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3335565336576
+    m_Key: HomeScreen.Rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3444638212096
+    m_Key: HomeScreen.LivesFull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6212811743232
+    m_Key: LevelCompleted.LevelCompleted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7247169052672
+    m_Key: Popup.Settings.Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7346716663808
+    m_Key: Popup.Settings.Support
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7417428434944
+    m_Key: Popup.Settings.T&C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7801979002880
+    m_Key: Popup.Settings.Privacy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8910646796288
+    m_Key: Popup.Settings.Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8924924207104
+    m_Key: Popup.Settings.Music
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8956293406720
+    m_Key: Popup.Settings.Vibration
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8984261025792
+    m_Key: Popup.Settings.Notifications
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9013453381632
+    m_Key: Popup.Settings.Language
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8012398554676986358
+  references:
+    version: 2
+    RefIds:
+    - rid: 8012398554676986358
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1751412299618

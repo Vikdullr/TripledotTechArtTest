@@ -1,0 +1,839 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6416402439171913023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8766733723455378995}
+  - component: {fileID: 1608176379725959005}
+  - component: {fileID: 328725820514299320}
+  - component: {fileID: 3255595639773672996}
+  - component: {fileID: 6113138048829112522}
+  - component: {fileID: 3293929674761577239}
+  m_Layer: 5
+  m_Name: BottomBarEntry_Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8766733723455378995
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9094448664774218748}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 380, y: 380}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1608176379725959005
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_CullTransparentMesh: 1
+--- !u!114 &328725820514299320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e0921f196e85c142afef3d6e89e9246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 0}
+  toggleTransition: 1
+  graphic: {fileID: 0}
+  m_Group: {fileID: 0}
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_IsOn: 0
+  isLocked: 0
+  OnLockedPressed:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3293929674761577239}
+        m_TargetAssemblyTypeName: UITweener, Assembly-CSharp
+        m_MethodName: PlayAnimationGroup
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: LockedPress
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3255595639773672996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: 400
+  m_PreferredHeight: 380
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &6113138048829112522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: -25, y: -5, z: -25, w: -150}
+  m_Softness: {x: 0, y: 35}
+--- !u!114 &3293929674761577239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6416402439171913023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2395756a9be1fd44b6ff6b0266a3425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenAnimations:
+  - animationName: MoveTo
+    animationGroup: ButtonToggle
+    enabled: 1
+    operationType: 1
+    duration: 0.25
+    delay: 0
+    easingType: 2
+    mirrorEaseOnRewind: 0
+    unrewindable: 1
+    snapToEndState: 1
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    ignoreX: 0
+    ignoreY: 1
+    ignoreZ: 1
+    targetAnchoredPosition: {x: 0, y: 115}
+    moveToTargetTransform: {fileID: 8766733723455378995}
+    chaseTarget: 1
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 180}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 0}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 0
+    customStartFloat: 380
+    customEndFloat: 600
+    customStartColor: {r: 1, g: 1, b: 1, a: 1}
+    customEndColor: {r: 1, g: 1, b: 1, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3255595639773672996}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: set_preferredWidth
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls: []
+  - animationName: IconRaise
+    animationGroup: ButtonToggle
+    enabled: 1
+    operationType: 0
+    duration: 0.25
+    delay: 0
+    easingType: 2
+    mirrorEaseOnRewind: 0
+    unrewindable: 0
+    snapToEndState: 1
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    ignoreX: 0
+    ignoreY: 0
+    ignoreZ: 0
+    targetAnchoredPosition: {x: 0, y: 115}
+    moveToTargetTransform: {fileID: 0}
+    chaseTarget: 0
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 0}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 9094448664774218748}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 0
+    customStartFloat: 380
+    customEndFloat: 600
+    customStartColor: {r: 1, g: 1, b: 1, a: 1}
+    customEndColor: {r: 1, g: 1, b: 1, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3255595639773672996}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: set_preferredWidth
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls: []
+  - animationName: PrefWidth
+    animationGroup: ButtonToggle
+    enabled: 1
+    operationType: 5
+    duration: 0.25
+    delay: 0
+    easingType: 2
+    mirrorEaseOnRewind: 0
+    unrewindable: 0
+    snapToEndState: 1
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ignoreX: 0
+    ignoreY: 0
+    ignoreZ: 0
+    targetAnchoredPosition: {x: 0, y: 0}
+    moveToTargetTransform: {fileID: 0}
+    chaseTarget: 0
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 0}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 0}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 0
+    customStartFloat: 400
+    customEndFloat: 750
+    customStartColor: {r: 1, g: 1, b: 1, a: 1}
+    customEndColor: {r: 1, g: 1, b: 1, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3255595639773672996}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: set_preferredWidth
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls: []
+  - animationName: LockShake
+    animationGroup: LockedPress
+    enabled: 1
+    operationType: 3
+    duration: 0.25
+    delay: 0
+    easingType: 10
+    mirrorEaseOnRewind: 0
+    unrewindable: 0
+    snapToEndState: 0
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.75
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ignoreX: 1
+    ignoreY: 1
+    ignoreZ: 0
+    targetAnchoredPosition: {x: 25, y: 0}
+    moveToTargetTransform: {fileID: 0}
+    chaseTarget: 0
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 10}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 9094448664774218748}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 0
+    customStartFloat: 380
+    customEndFloat: 600
+    customStartColor: {r: 1, g: 1, b: 1, a: 1}
+    customEndColor: {r: 1, g: 1, b: 1, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3255595639773672996}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: set_preferredWidth
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls: []
+  - animationName: LockPanelWiggle
+    animationGroup: LockedPress
+    enabled: 1
+    operationType: 0
+    duration: 0.25
+    delay: 0
+    easingType: 10
+    mirrorEaseOnRewind: 0
+    unrewindable: 0
+    snapToEndState: 0
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.25
+        value: 1
+        inSlope: -2
+        outSlope: -2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: -1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.75
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ignoreX: 0
+    ignoreY: 1
+    ignoreZ: 0
+    targetAnchoredPosition: {x: 25, y: 0}
+    moveToTargetTransform: {fileID: 0}
+    chaseTarget: 0
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 0}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 0}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 1
+    customStartFloat: 380
+    customEndFloat: 600
+    customStartColor: {r: 0.08627451, g: 0.7254902, b: 0.9960785, a: 1}
+    customEndColor: {r: 1, g: 0.48953885, b: 0.48867923, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Graphic, UnityEngine.UI
+          m_MethodName: set_color
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - animationName: LockColour
+    animationGroup: LockedPress
+    enabled: 1
+    operationType: 5
+    duration: 0.25
+    delay: 0
+    easingType: 10
+    mirrorEaseOnRewind: 0
+    unrewindable: 0
+    snapToEndState: 0
+    customEaseCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    ignoreX: 0
+    ignoreY: 1
+    ignoreZ: 0
+    targetAnchoredPosition: {x: 25, y: 0}
+    moveToTargetTransform: {fileID: 0}
+    chaseTarget: 0
+    targetScale: {x: 5, y: 5, z: 5}
+    targetEulerAngles: {x: 0, y: 0, z: 0}
+    targetAlpha: 0
+    targetRectTransformOverride: {fileID: 9094448664774218748}
+    targetGameObjectOverride: {fileID: 0}
+    customAnimationType: 1
+    customStartFloat: 380
+    customEndFloat: 600
+    customStartColor: {r: 1, g: 1, b: 1, a: 1}
+    customEndColor: {r: 1, g: 0.8, b: 0.8, a: 1}
+    onUpdateFloat:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: UnityEngine.UI.LayoutElement, UnityEngine.UI
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 600
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    onUpdateColor:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6898392713623245031}
+          m_TargetAssemblyTypeName: UnityEngine.UI.Graphic, UnityEngine.UI
+          m_MethodName: set_color
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!1 &8901152494719304266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9094448664774218748}
+  - component: {fileID: 673740007300601924}
+  - component: {fileID: 6898392713623245031}
+  m_Layer: 5
+  m_Name: FooterEntry_Icon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &9094448664774218748
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901152494719304266}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2452546615326051888}
+  m_Father: {fileID: 8766733723455378995}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &673740007300601924
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901152494719304266}
+  m_CullTransparentMesh: 1
+--- !u!114 &6898392713623245031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901152494719304266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &3431767374713381162
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 9094448664774218748}
+    m_Modifications:
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6117604341937928841, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_Name
+      value: FooterEntry_Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_text
+      value: Null
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_fontSize
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 61e108d2cd75e8b448dd46607888d7d3, type: 2}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: a94fc61225ae17b48bb6b99abf95d17a, type: 2}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_characterSpacing
+      value: -7.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6522391835234001956, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+--- !u!224 &2452546615326051888 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 984357686303289114, guid: 9458ee3f9d4dae8479717043583050c7, type: 3}
+  m_PrefabInstance: {fileID: 3431767374713381162}
+  m_PrefabAsset: {fileID: 0}
